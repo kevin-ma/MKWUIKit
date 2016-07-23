@@ -1,0 +1,14 @@
+PODS:
+  - MKWUIKit (0.0.1)
+
+DEPENDENCIES:
+  - MKWUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  MKWUIKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MKWUIKit: 9d29bb054a530f6ccd971389c1a3d8b6696745db
+
+COCOAPODS: 0.39.0
