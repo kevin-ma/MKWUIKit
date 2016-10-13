@@ -9,4 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#import "MKWUIMacros.h"
+
 #import "UIView+MKWKit.h"

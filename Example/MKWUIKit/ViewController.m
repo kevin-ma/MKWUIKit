@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <MKWUIKit/MKWUIKit.h>
 
 @interface ViewController ()
 
@@ -16,12 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"%d",isEmptyString(@"kevin"));
+    
+    NSLog(@"%f",SCREEN_WIDTH);
     // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
