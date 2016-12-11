@@ -6,9 +6,9 @@
 //
 //
 
-#import "UIView+MKWKit.h"
+#import "MKWViewKit.h"
 
-@implementation UIView (MKWKit)
+@implementation UIView (mkw_rect)
 
 - (CGFloat)kw_left
 {
@@ -124,6 +124,21 @@
 - (void)setKw_CenterY:(CGFloat)centerY
 {
     self.center = CGPointMake(self.center.x, centerY);
+}
+
+@end
+
+@implementation UIView (mkw_responer)
+
+- (UIViewController *)viewController
+{
+    UIResponder *responder = [self nextResponder];
+    while (responder) {
+        if ([responder isKindOfClass:[UIViewController class]]) {
+            return responder;
+        }
+    }
+    return nil;
 }
 
 @end

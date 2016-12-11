@@ -44,20 +44,6 @@ UIColor *colorWithHex(NSInteger hex)
 
 # pragma mark - 字符串 | chiyu
 
-BOOL isEmptyString(NSString *string)
-{
-    return (![string isKindOfClass:[NSString class]] || (!string || [[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] isEqualToString:@""]));
-}
-
-NSString *intString(NSInteger value)
-{
-    return [NSString stringWithFormat:@"%d",value];
-}
-
-NSString *floatString(CGFloat value)
-{
-    return [NSString stringWithFormat:@"%f",value];
-}
 
 UIFont *font(CGFloat size)
 {

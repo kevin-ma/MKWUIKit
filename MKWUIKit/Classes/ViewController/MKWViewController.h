@@ -10,6 +10,6 @@
 
 @interface MKWViewController : MKWAnalyticsViewController
 
-
+@property (nonatomic, assign) BOOL isLoading;
 
 @end

@@ -2,4 +2,3 @@ platform :ios, '8.0'
 target 'MKWUIKit' do
   pod 'MKWUIKit', :path => '../'
 end
-

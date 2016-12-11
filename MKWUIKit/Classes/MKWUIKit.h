@@ -10,5 +10,3 @@
 #import <UIKit/UIKit.h>
 
 #import "MKWUIMacros.h"
-
-#import "UIView+MKWKit.h"

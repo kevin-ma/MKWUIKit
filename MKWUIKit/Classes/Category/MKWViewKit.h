@@ -9,7 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (MKWKit)
+@interface UIView (mkw_rect)
 
 @property (nonatomic) CGFloat kw_left;
 
@@ -30,5 +30,11 @@
 @property (nonatomic) CGFloat kw_centerX;
 
 @property (nonatomic) CGFloat kw_centerY;
+
+@end
+
+@interface UIView (mkw_responer)
+
+- (UIViewController *)viewController;
 
 @end

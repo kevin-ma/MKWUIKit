@@ -31,12 +31,9 @@ FOUNDATION_EXPORT UIColor *colorWithHex(NSInteger hex);
 
 # pragma mark - 字符串 | chiyu
 
-FOUNDATION_EXPORT BOOL isEmptyString(NSString *string);
-
-FOUNDATION_EXPORT NSString *intString(NSInteger value);
-
-FOUNDATION_EXPORT NSString *floatString(CGFloat value);
 
 FOUNDATION_EXPORT UIFont *font(CGFloat size);
 
 FOUNDATION_EXPORT UIFont *fontBold(CGFloat size);
+
+# pragma mark - 字符串 | chiyu
